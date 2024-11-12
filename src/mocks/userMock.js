@@ -7,7 +7,7 @@ export const generateMockUsers = async (num) => {
 
     for (let i = 0; i < num; i++) {
         users.push({
-        username: faker.internet.userName(),
+        username: faker.internet.username(),
         email: faker.internet.email(),
         password,
         role: Math.random() > 0.5 ? "admin" : "user",
