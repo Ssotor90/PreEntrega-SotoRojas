@@ -1,4 +1,4 @@
-import faker from '@faker-js/faker';
+import { faker } from '@faker-js/faker';
 import bcrypt from 'bcryptjs';
 
 export const generateMockUsers = async (num) => {
